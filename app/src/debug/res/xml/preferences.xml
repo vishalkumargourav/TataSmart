@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Your Name"
+        android:key="owner_name"
+        android:summary="Please provide your name">
+    </EditTextPreference>
+    <EditTextPreference android:title="Your phone number"
+        android:key="owner_number"
+        android:summary="Please provide your phone number">
+    </EditTextPreference>
+    <EditTextPreference android:title="First preference"
+            android:key="phone_number1"
+            android:summary="Please provide phone number">
+        </EditTextPreference>
+    <EditTextPreference android:title="Second preference"
+        android:key="phone_number2"
+        android:summary="Please provide phone number">
+    </EditTextPreference>
+    <EditTextPreference android:title="Third preference"
+        android:key="phone_number3"
+        android:summary="Please provide phone number">
+    </EditTextPreference>
+    <EditTextPreference android:title="Fourth preference"
+        android:key="phone_number4"
+        android:summary="Please provide phone number">
+    </EditTextPreference>
+    <EditTextPreference android:title="Fifth preference"
+        android:key="phone_number5"
+        android:summary="Please provide phone number">
+    </EditTextPreference>
+    <EditTextPreference android:title="Lower Speed Limit"
+        android:key="min_speed"
+        android:summary="Please provide lower speed limit">
+    </EditTextPreference>
+    <EditTextPreference android:title="Upper Speed Limit"
+        android:key="max_speed"
+        android:summary="Please provide upper speed limit">
+    </EditTextPreference>
+</PreferenceScreen>

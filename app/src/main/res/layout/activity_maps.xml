@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="horizontal"
+    tools:context="com.tatasmart.in.tatasmart.MapsActivity">
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hospitals"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/hospital"
+            android:id="@+id/hospitalButton" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/atmButton"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/atm" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/policeButton"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/police" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/hotel"
+            android:id="@+id/hotelButton" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/toll"
+            android:id="@+id/tollButton" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="0dp">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="510dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Location"
+            android:background="@drawable/location"
+            android:id="@+id/myLocation"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_above="@+id/directions"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:background="@drawable/directions"
+            android:id="@+id/directions"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:layout_alignLeft="@+id/myLocation"
+            android:layout_alignStart="@+id/myLocation" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

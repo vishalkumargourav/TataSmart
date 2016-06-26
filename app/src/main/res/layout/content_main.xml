@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tatasmart.in.tatasmart.MainActivity"
+    android:background="@color/grey"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/mapbutton"
+            android:background="@drawable/maps"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/helpButton"
+            android:background="@drawable/help"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/feedbackButton"
+            android:background="@drawable/feedback"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/supportButton"
+            android:background="@drawable/support"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/trafficButton"
+            android:background="@drawable/traffic"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="59dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/cover"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:id="@+id/offersButton"
+            android:background="@drawable/offers"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="0dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/newsButton"
+            android:background="@drawable/news"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageview8"
+            android:background="@drawable/music"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageview9"
+            android:background="@drawable/antitheft"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnSetPreferences"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/settings"
+            android:layout_marginRight="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

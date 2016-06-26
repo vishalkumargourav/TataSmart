@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tatasmart.in.tatasmart.supprtActivity"
+    tools:showIn="@layout/activity_supprt">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tata Dealers"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="10dp"
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="MS Motors"
+                android:id="@+id/dealername2"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Distance: 1.7 km"
+                android:id="@+id/distance2" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Contact No: 9988776655"
+                android:id="@+id/contact2" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Submit Request"
+                android:id="@+id/submit2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Concorde Motors"
+                android:id="@+id/dealername1"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Distance: 1.2 km"
+                android:id="@+id/distance1" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Contact No: 9988776655"
+                android:id="@+id/contact1" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Submit Request"
+                android:id="@+id/submit1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="VM Motors"
+                android:id="@+id/dealername3"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Distance: 1.9 km"
+                android:id="@+id/distance3" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Contact No: 9988776655"
+                android:id="@+id/contact3" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Submit Request"
+                android:id="@+id/submit3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="RK Motors"
+                android:id="@+id/dealername4"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Distance: 1.2 km"
+                android:id="@+id/distance4" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Contact No: 9988776655"
+                android:id="@+id/contact4" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Submit Request"
+                android:id="@+id/submit4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="SK Motors"
+                android:id="@+id/dealername5"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="Distance: 2.5 km"
+                android:id="@+id/distance5" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Contact No: 9988776655"
+                android:id="@+id/contact5" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:text="Submit Request"
+                android:id="@+id/submit5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
